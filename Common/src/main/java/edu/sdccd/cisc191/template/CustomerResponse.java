@@ -7,7 +7,7 @@ public class CustomerResponse {
     private Integer id;
     private String firstName;
     private String lastName;
-
+    //testing again
     @JsonIgnore
     private static final ObjectMapper objectMapper = new ObjectMapper();
     public static String toJSON(CustomerResponse customer) throws Exception {
