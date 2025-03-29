@@ -7,12 +7,12 @@ package edu.sdccd.cisc191.template;
  * References: "Bro code: Java: Inheritance" https://www.youtube.com/watch?v=Zs342ePFvRI
  */
 
-
+//test
 // Fighter class inherits the methods of Unit Class.
 public class Fighter extends Unit
 {
     private int fuel;
-
+//test test
     //Constructor to Initialize the private objects in infantryUnit and Unit class.
     //represents a fighter unit with attributes like health armor and attack damage.
 

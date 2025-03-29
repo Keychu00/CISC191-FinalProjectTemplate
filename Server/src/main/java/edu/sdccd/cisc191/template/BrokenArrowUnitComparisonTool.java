@@ -1,6 +1,6 @@
 
 package edu.sdccd.cisc191.template;
-
+// test
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
@@ -12,10 +12,12 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.util.StringConverter;
 import java.util.List;
+
+//test
 //code keeps closing files on me i cant make any changes or do anything consistantly
 /**
  * Author Nicholas Hilaire
- *
+ */
  * Java GUI Tutorial - Make a GUI in 13 Minutes #99 "https://www.youtube.com/watch?v=5o3fMLPY7qY
  * "How to Use BoxLayout"  https://docs.oracle.com/javase/tutorial/uiswing/layout/box.html
  */
