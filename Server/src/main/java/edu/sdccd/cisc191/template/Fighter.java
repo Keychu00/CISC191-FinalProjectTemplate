@@ -14,6 +14,8 @@ public class Fighter extends Unit
     private int fuel;
 
     //Constructor to Initialize the private objects in infantryUnit and Unit class.
+    //represents a fighter unit with attributes like health armor and attack damage.
+
     public Fighter(String unitName, String unitType, String specialization, int price, int armor,
                    int health, int sightRange, double unseenRange, int speed,
                    int weight, String abilities, int fuel)

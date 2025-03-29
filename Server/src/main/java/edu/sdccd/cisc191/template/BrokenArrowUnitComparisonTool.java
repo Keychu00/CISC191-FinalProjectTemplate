@@ -12,7 +12,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.util.StringConverter;
 import java.util.List;
-
+//code keeps closing files on me i cant make any changes or do anything consistantly
 /**
  * Author Nicholas Hilaire
  *
@@ -38,6 +38,9 @@ public class BrokenArrowUnitComparisonTool extends Application
     public void start(Stage primaryStage)
     {
         // Load units from CSV (ensure the path is correct)
+
+        //Make sure the file path is correct and accessible to prevent loading issues.
+
         unitList = UnitStatsLoader.loadUnits("C:\\Users\\Nicko\\IdeaProjects\\CISC191-FinalProjectTemplate\\Server\\src\\main\\resources\\Broken Arrow Unit Stats.csv");
         System.out.println("Units loaded: " + unitList.size());
 
